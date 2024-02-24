@@ -9,5 +9,7 @@ function capitalizeFirstWord(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
-module.exports = emailValidation;
-// module.exports = capitalizeFirstWord;
+module.exports ={
+    emailValidation,
+    capitalizeFirstWord
+} ;
