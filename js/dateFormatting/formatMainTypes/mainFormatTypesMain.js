@@ -3,7 +3,7 @@ import { dateToLocalString } from "./dateToLocalString.js";
 import { dateToTimestamp } from "./dateToTimestamp.js";
 import { timeStampToDate } from "./timeStampToDate.js";
 
-export{
+module.exports ={
     dateToDateString,
     dateToLocalString,
     dateToTimestamp,

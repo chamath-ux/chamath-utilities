@@ -2,7 +2,7 @@ import { getyear } from "./getYear.js";
 import { getmonth } from "./getMonth.js";
 import { getdate } from "./getDate.js";
 
-export {
+module.exports= {
     getyear,
     getmonth,
     getdate
